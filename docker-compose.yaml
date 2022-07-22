@@ -1,0 +1,8 @@
+services:
+  pg_sample:
+    image: mla12/pg_sample
+    container_name: pg_sample
+    volumes:
+      - ./io:/io
+    tty: true
+    stdin_open: true
